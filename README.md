@@ -1,37 +1,6 @@
 
 # 大学课程资源
-qq.com/msgrd?v=3&uin=414313516&site=qq&menu=yes)
-
-# 资料下载
-<!--
-## FTP
-1. FTP/FTPS:
-   - 地址：ftp.ustclug.org；
-   - 路径：/ebook/USTC-CS-Courses-Resource；
-   - 用户名：ftp；
-   - 密码：ftp；
-2. SFTP (Secure File Transfer Protocol):
-   - 地址：ftp.ustclug.org；
-   - 路径：/ebook/USTC-CS-Courses-Resource；
-   - 用户名：ftp；
-   - 密码：ftp；
-3. AFP (Apple Filing Protocol)
-   - 地址：afp://ftp.ustclug.org/；
-   - 路径：/ebook/USTC-CS-Courses-Resource；
-   - Connect As Guest
-
-感谢 @USTC-LUG, @[zzh1996](https://github.com/zzh1996), @[volltin](https://github.com/volltin)
-
-
-## HTTPS
--->
-
-- [github 网页](#课程目录)
-- [脚本生成的网页](https://mbinary.xyz/ustc-cs/)
-- [gitzip 下载工具](https://kinolien.github.io/gitzip)
-
-
-# 课程结构
+## 课程结构
 每门课程大致结构如下，有些栏目可能没有，也可以自己添加认为合理的栏目
 
 * 教材，答案在课程目录下
@@ -55,12 +24,12 @@ qq.com/msgrd?v=3&uin=414313516&site=qq&menu=yes)
 ├ slides- 李诚
 └ slides- 郑启龙
 ```
-# 课程关系
+## 课程关系
 ![](https://user-images.githubusercontent.com/29198767/53245024-851b1280-36e7-11e9-9d22-7ee65446c68a.png)
 
 更多信息可以下载[官网的培养方案](https://www.teach.ustc.edu.cn/education/241.html/attachment/14-215%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E9%99%A2-2013)
 
-# 课程目录
+## 课程目录
 **根据拼音字母排序**, 可以通过在此页面搜索课程名快速定位。
 
 * [.](.)
@@ -117,38 +86,4 @@ qq.com/msgrd?v=3&uin=414313516&site=qq&menu=yes)
         * [大学物理实验](./物理类/大学物理实验)
         * [电磁学](./物理类/电磁学)
         * [光学与原子物理](./物理类/光学与原子物理)
-
-# 贡献投稿
-欢迎大家的参与与贡献^_^
-投稿的时候注意
-
-* [版权说明](#版权说明)
-* github 上不能直接上传大于 100mb 的文件。对于超过 100 mb 的文件，可以存在网盘，然后在 README 文件中贴上链接
-* 文件内容的改动会使 git 重新上传, 在没有必要的情况下, 不要对二进制文件做任何更改.
-
-可以通过如下方式贡献
-- 帮忙上传: 可以发给仓库维护者帮忙上传，或者提 issue
-- 用网页操作或者[桌面版](https://desktop.github.com/) fork and pull request. 操作方式可以参考 [这里](https://blog.csdn.net/qq_29277155/article/details/51048990) 和[这里](https://blog.csdn.net/zhangw0_0/article/details/50667891),[PR](https://blog.csdn.net/huutu/article/details/51018317)
-
-- 用命令行: 注意仓库较大,直接 clone 很慢. 可以使用 sparse-checkout, 只下载指定的目录
-执行
-```shell
-mkdir ustc-courses  #文件夹名可以自己取
-cd ustc-courses
-git init
-git remote add -f origin  git@github.com:mbinary/USTC-CS-Courses-Resource.git
-git config core.sparsecheckout true
-echo "计算机与信息类/软件工程"  >> .git/info/sparse-checkout  #这里工作目录就是在那个 repo 主页下
-
-#如果还有其他目录，都像上面一样加入即可，如 `echo  "计算机与信息类/图论/slides" >> .git/info/sparse-checkout`
-#只需记住的是 加入的目录应该在远程仓库存在，否则报错“error: Sparse checkout leaves no entry on the working directory”
-
-git pull origin master
-git remote add upstream git@github.com:mbinary/USTC-CS-Courses-Resource.git
-```
-更新内容后 
-```shell
-git fetch upstream/master
-git merge upstream/master
-```
 
