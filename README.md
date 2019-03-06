@@ -1,37 +1,6 @@
 
-# 中国科学技术大学课程资源
-[![Stars](https://img.shields.io/github/stars/mbinary/USTC-CS-Courses-Resource.svg?label=Stars&style=social)](https://github.com/mbinary/USTC-CS-Courses-Resource/stargazers)
-[![Forks](https://img.shields.io/github/forks/mbinary/USTC-CS-Courses-Resource.svg?label=Fork&style=social)](https://github.com/mbinary/USTC-CS-Courses-Resource/network/members)
-[![repo-size](https://img.shields.io/github/repo-size/mbinary/USTC-CS-Courses-Resource.svg)]()
-[![Contributors](https://img.shields.io/github/contributors/mbinary/USTC-CS-Courses-Resource.svg)](https://github.com/mbinary/USTC-CS-Courses-Resource/graphs/contributors)
-[![License](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-
->本仓库收录中国科学技术大学众多课程资源，包括电子版教材、参考书、讲义、试卷、学习心得、习题解答等。以计算机学院课程为主，也包含公选课、自由选修等其他课程。
-
-
-# 目录索引
-* [版权说明](#版权说明)
-* [反馈方式](#反馈方式)
-* [资料下载](#资料下载)
-* [课程结构](#课程结构)
-* [课程关系](#课程关系)
-* [课程目录](#课程目录)
-
-# 版权说明
-本仓库分享资料遵守其创作者之规定。
-
-对无特别声明的资料，谨以[知识共享署名 - 非商业性使用 - 相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/) 授权。![](https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png)
-
-抵制盗版，人人有责。我们正在征询任课教师许可分享讲义、试卷、作业、实验等内容，仅分享合法资料。
-
-请贡献者遵守版权规定，尊重原创劳动，注明资料来源；
-
-请创作者及公众监督，如有资料违反许可协议，请告知我们改正错误。
-
-# 反馈方式
-- [issue](https://github.com/mbinary/USTC-CS-Courses-Resource/issues/new)
-- <a href="mailto:&#122;huheqin1@gmail.com?subject=%E5%8F%8D%E9%A6%88%E4%B8%8E%E5%BB%BA%E8%AE%AE">email</a>
-- [QQ](http://wpa.qq.com/msgrd?v=3&uin=414313516&site=qq&menu=yes)
+# 大学课程资源
+qq.com/msgrd?v=3&uin=414313516&site=qq&menu=yes)
 
 # 资料下载
 <!--
